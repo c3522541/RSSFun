@@ -70,6 +70,7 @@
 - (void)viewDidLoad
 {
     self.title = @"Feeds";
+    self._allEntries = [NSMutableArray array];
     [self addRows];
 }
 
