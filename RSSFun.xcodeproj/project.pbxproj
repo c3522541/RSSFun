@@ -1,0 +1,277 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		99982BF113AFCE20009688C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99982BF013AFCE20009688C3 /* UIKit.framework */; };
+		99982BF313AFCE20009688C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99982BF213AFCE20009688C3 /* Foundation.framework */; };
+		99982BF513AFCE20009688C3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 99982BF413AFCE20009688C3 /* CoreGraphics.framework */; };
+		99982BFB13AFCE20009688C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 99982BF913AFCE20009688C3 /* InfoPlist.strings */; };
+		99982BFE13AFCE20009688C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 99982BFD13AFCE20009688C3 /* main.m */; };
+		99982C0113AFCE20009688C3 /* RSSFunAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 99982C0013AFCE20009688C3 /* RSSFunAppDelegate.m */; };
+		99982C0413AFCE21009688C3 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 99982C0213AFCE20009688C3 /* MainWindow.xib */; };
+		99982C0C13AFCF0F009688C3 /* RSSEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 99982C0B13AFCF0F009688C3 /* RSSEntry.m */; };
+		99982C0F13AFDD2D009688C3 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 99982C0E13AFDD2D009688C3 /* RootViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		99982BEC13AFCE20009688C3 /* RSSFun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSSFun.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		99982BF013AFCE20009688C3 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		99982BF213AFCE20009688C3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		99982BF413AFCE20009688C3 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		99982BF813AFCE20009688C3 /* RSSFun-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "RSSFun-Info.plist"; sourceTree = "<group>"; };
+		99982BFA13AFCE20009688C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		99982BFC13AFCE20009688C3 /* RSSFun-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSSFun-Prefix.pch"; sourceTree = "<group>"; };
+		99982BFD13AFCE20009688C3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		99982BFF13AFCE20009688C3 /* RSSFunAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RSSFunAppDelegate.h; sourceTree = "<group>"; };
+		99982C0013AFCE20009688C3 /* RSSFunAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RSSFunAppDelegate.m; sourceTree = "<group>"; };
+		99982C0313AFCE21009688C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		99982C0A13AFCF0F009688C3 /* RSSEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RSSEntry.h; sourceTree = "<group>"; };
+		99982C0B13AFCF0F009688C3 /* RSSEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RSSEntry.m; sourceTree = "<group>"; };
+		99982C0D13AFDD2D009688C3 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		99982C0E13AFDD2D009688C3 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		99982BE913AFCE20009688C3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99982BF113AFCE20009688C3 /* UIKit.framework in Frameworks */,
+				99982BF313AFCE20009688C3 /* Foundation.framework in Frameworks */,
+				99982BF513AFCE20009688C3 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		99982BE113AFCE20009688C3 = {
+			isa = PBXGroup;
+			children = (
+				99982BF613AFCE20009688C3 /* RSSFun */,
+				99982BEF13AFCE20009688C3 /* Frameworks */,
+				99982BED13AFCE20009688C3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		99982BED13AFCE20009688C3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				99982BEC13AFCE20009688C3 /* RSSFun.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		99982BEF13AFCE20009688C3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99982BF013AFCE20009688C3 /* UIKit.framework */,
+				99982BF213AFCE20009688C3 /* Foundation.framework */,
+				99982BF413AFCE20009688C3 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		99982BF613AFCE20009688C3 /* RSSFun */ = {
+			isa = PBXGroup;
+			children = (
+				99982C0A13AFCF0F009688C3 /* RSSEntry.h */,
+				99982C0B13AFCF0F009688C3 /* RSSEntry.m */,
+				99982BFF13AFCE20009688C3 /* RSSFunAppDelegate.h */,
+				99982C0013AFCE20009688C3 /* RSSFunAppDelegate.m */,
+				99982C0213AFCE20009688C3 /* MainWindow.xib */,
+				99982BF713AFCE20009688C3 /* Supporting Files */,
+				99982C0D13AFDD2D009688C3 /* RootViewController.h */,
+				99982C0E13AFDD2D009688C3 /* RootViewController.m */,
+			);
+			path = RSSFun;
+			sourceTree = "<group>";
+		};
+		99982BF713AFCE20009688C3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				99982BF813AFCE20009688C3 /* RSSFun-Info.plist */,
+				99982BF913AFCE20009688C3 /* InfoPlist.strings */,
+				99982BFC13AFCE20009688C3 /* RSSFun-Prefix.pch */,
+				99982BFD13AFCE20009688C3 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		99982BEB13AFCE20009688C3 /* RSSFun */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 99982C0713AFCE21009688C3 /* Build configuration list for PBXNativeTarget "RSSFun" */;
+			buildPhases = (
+				99982BE813AFCE20009688C3 /* Sources */,
+				99982BE913AFCE20009688C3 /* Frameworks */,
+				99982BEA13AFCE20009688C3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSSFun;
+			productName = RSSFun;
+			productReference = 99982BEC13AFCE20009688C3 /* RSSFun.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		99982BE313AFCE20009688C3 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 99982BE613AFCE20009688C3 /* Build configuration list for PBXProject "RSSFun" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 99982BE113AFCE20009688C3;
+			productRefGroup = 99982BED13AFCE20009688C3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				99982BEB13AFCE20009688C3 /* RSSFun */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		99982BEA13AFCE20009688C3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99982BFB13AFCE20009688C3 /* InfoPlist.strings in Resources */,
+				99982C0413AFCE21009688C3 /* MainWindow.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		99982BE813AFCE20009688C3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99982BFE13AFCE20009688C3 /* main.m in Sources */,
+				99982C0113AFCE20009688C3 /* RSSFunAppDelegate.m in Sources */,
+				99982C0C13AFCF0F009688C3 /* RSSEntry.m in Sources */,
+				99982C0F13AFDD2D009688C3 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		99982BF913AFCE20009688C3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99982BFA13AFCE20009688C3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		99982C0213AFCE20009688C3 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				99982C0313AFCE21009688C3 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		99982C0513AFCE21009688C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		99982C0613AFCE21009688C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		99982C0813AFCE21009688C3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSFun/RSSFun-Prefix.pch";
+				INFOPLIST_FILE = "RSSFun/RSSFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		99982C0913AFCE21009688C3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				COPY_PHASE_STRIP = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "RSSFun/RSSFun-Prefix.pch";
+				INFOPLIST_FILE = "RSSFun/RSSFun-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				VALIDATE_PRODUCT = YES;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		99982BE613AFCE20009688C3 /* Build configuration list for PBXProject "RSSFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99982C0513AFCE21009688C3 /* Debug */,
+				99982C0613AFCE21009688C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		99982C0713AFCE21009688C3 /* Build configuration list for PBXNativeTarget "RSSFun" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				99982C0813AFCE21009688C3 /* Debug */,
+				99982C0913AFCE21009688C3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 99982BE313AFCE20009688C3 /* Project object */;
+}
